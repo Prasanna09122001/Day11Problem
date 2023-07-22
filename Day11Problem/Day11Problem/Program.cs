@@ -48,6 +48,10 @@ namespace Day11Problem
                         FrequencyEleent Element = new FrequencyEleent();
                         Element.FrequencyOfElements();
                         break;
+                    case 8:
+                        UniqueElements Unique = new UniqueElements();
+                        Unique.uniqueelemnts();
+                        break;
                     default:
                         flag = false;
                         break;
