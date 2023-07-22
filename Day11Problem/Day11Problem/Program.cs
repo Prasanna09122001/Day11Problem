@@ -10,7 +10,7 @@ namespace Day11Problem
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("Enter the program to be Executed\n1.Pattern 1\n2.Pattern 2");
+                Console.WriteLine("Enter the program to be Executed\n1.Pattern 1\n2.Pattern 2\n3.");
                 int input = Convert.ToInt32(Console.ReadLine());
                 switch (input)
                 {
@@ -25,6 +25,15 @@ namespace Day11Problem
                         Console.WriteLine("ENter the number of times Star to be Printed");
                         int Number1 = Convert.ToInt32(Console.ReadLine());
                         pattern.pattern(Number1);
+                        break;
+                    case 3:
+                        sumofdigits Sumofdigit = new sumofdigits();
+                        Console.WriteLine("Enter the number ");
+                        int number2 = Convert.ToInt32(Console.ReadLine());
+                        Sumofdigit.sum(number2);
+                        break;
+                    case 4:
+                        flag = false;
                         break;
                 }
             }
