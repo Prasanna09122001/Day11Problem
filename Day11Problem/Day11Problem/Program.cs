@@ -10,7 +10,7 @@ namespace Day11Problem
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("Enter the program to be Executed\n1.Pattern 1\n2.Pattern 2\n3.");
+                Console.WriteLine("Enter the program to be Executed\n1.Pattern 1\n2.Pattern 2\n3.Sum of digits");
                 int input = Convert.ToInt32(Console.ReadLine());
                 switch (input)
                 {
@@ -33,6 +33,10 @@ namespace Day11Problem
                         Sumofdigit.sum(number2);
                         break;
                     case 4:
+                        CapitalLetter capitalLetter = new CapitalLetter();
+                        capitalLetter.capitalletter();
+                        break;
+                    default:
                         flag = false;
                         break;
                 }
