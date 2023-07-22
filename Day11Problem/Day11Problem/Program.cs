@@ -40,6 +40,10 @@ namespace Day11Problem
                         MaxMin max = new MaxMin();
                         max.maxmin();
                         break;
+                    case 6:
+                        ReverseTheWords reverse = new ReverseTheWords();
+                        reverse.ReverseEachWords();
+                        break;
                     default:
                         flag = false;
                         break;
