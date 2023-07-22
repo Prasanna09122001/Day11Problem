@@ -36,6 +36,10 @@ namespace Day11Problem
                         CapitalLetter capitalLetter = new CapitalLetter();
                         capitalLetter.capitalletter();
                         break;
+                    case 5:
+                        MaxMin max = new MaxMin();
+                        max.maxmin();
+                        break;
                     default:
                         flag = false;
                         break;
