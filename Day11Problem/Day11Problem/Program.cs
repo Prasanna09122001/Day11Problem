@@ -56,6 +56,10 @@ namespace Day11Problem
                         LowestTwo lowestTwo = new LowestTwo();
                         lowestTwo.Lowesttwo();
                         break;
+                    case 10:
+                        Duplicate duplicate = new Duplicate();
+                        duplicate.DuplicateCount();
+                        break;
                     default:
                         flag = false;
                         break;
