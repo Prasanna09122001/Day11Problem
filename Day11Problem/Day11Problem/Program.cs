@@ -52,6 +52,10 @@ namespace Day11Problem
                         UniqueElements Unique = new UniqueElements();
                         Unique.uniqueelemnts();
                         break;
+                    case 9:
+                        LowestTwo lowestTwo = new LowestTwo();
+                        lowestTwo.Lowesttwo();
+                        break;
                     default:
                         flag = false;
                         break;
