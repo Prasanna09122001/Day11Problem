@@ -10,19 +10,20 @@ namespace Day11Problem
             bool flag = true;
             while (flag)
             {
-                Console.WriteLine("Enter the program to be Executed\n1.Pattern 1\n2.Pattern 2\n3.Sum of digits");
+                Console.WriteLine("Enter the program to be Executed\n1.Pattern 1\n2.Pattern 2\n3.Sum of digits\n4.Captial Letter\n5.Maximum And Minimum Number");
+                Console.WriteLine("6.Reverse Each Element\n7.Frequency Letter\n8.Unique Letter\n9.Sum of Lowest Two\n10.Duplicate Element");
                 int input = Convert.ToInt32(Console.ReadLine());
                 switch (input)
                 {
                     case 1:
                         Pattern1 Pat = new Pattern1();
-                        Console.WriteLine("ENter the number of times Star to be Printed");
+                        Console.WriteLine("Enter the number of times Star to be Printed");
                         int Number = Convert.ToInt32(Console.ReadLine());
                         Pat.Pattern(Number);
                         break;
                     case 2:
                         Pattern2 pattern = new Pattern2();
-                        Console.WriteLine("ENter the number of times Star to be Printed");
+                        Console.WriteLine("Enter the number of times Star to be Printed");
                         int Number1 = Convert.ToInt32(Console.ReadLine());
                         pattern.pattern(Number1);
                         break;

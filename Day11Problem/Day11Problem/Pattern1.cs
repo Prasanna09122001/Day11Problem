@@ -14,7 +14,7 @@ namespace Day11Problem
             int i, j;
             for(i=number; i>0;i--)
             {
-                for(j=i-1; j>0;j--)
+                for(j=i; j>0;j--)
                 {
                     Console.Write("*");
                 }
