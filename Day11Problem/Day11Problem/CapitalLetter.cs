@@ -10,7 +10,7 @@ namespace Day11Problem
     {
         public void capitalletter()
         {
-            string empty = "";
+            string a = "";
             Console.WriteLine("Enter a Full sentence");
             string s = Console.ReadLine();
             string[] letter = s.Split(new[] { ' ' });
@@ -20,17 +20,17 @@ namespace Day11Problem
                 {
                     if (i == 0)
                     {
-                        char a = Char.ToUpper(words[i]);
-                        empty += a;
+                        char b = Char.ToUpper(words[i]);
+                        a += b;
                     }
                     else
                     {
-                        empty += words[i];
+                        a += words[i];
                     }
                 }
-                empty += " ";
+                a += " ";
             }
-            Console.WriteLine(empty);
+            Console.WriteLine(a);
         }
     }
 }

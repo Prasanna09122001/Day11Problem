@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Day11Problem
 {
-    internal class FrequencyEleent
+    internal class FrequencyElement
     {
         public void FrequencyOfElements()
         {

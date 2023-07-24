@@ -46,7 +46,7 @@ namespace Day11Problem
                         reverse.ReverseEachWords();
                         break;
                     case 7:
-                        FrequencyEleent Element = new FrequencyEleent();
+                        FrequencyElement Element = new FrequencyElement();
                         Element.FrequencyOfElements();
                         break;
                     case 8:
